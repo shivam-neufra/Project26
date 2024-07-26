@@ -1,0 +1,46 @@
+.App {
+  height: 100vh;
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar li svg {
+  margin-right: 10px;
+}
+
+.canvas-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
