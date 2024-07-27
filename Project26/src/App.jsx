@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CanvasDraw from 'react-canvas-draw';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faCalendar, faTable } from '@fortawesome/free-solid-svg-icons';
