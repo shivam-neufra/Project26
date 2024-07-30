@@ -1,7 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: 'Project26',  // Replace <REPO_NAME> with your repository name
-})
+  base: './', // Ensure that the base starts with a slash and is relative
+  build: {
+    rollupOptions: {
+      input: {
+        main: './index.html'
+      }
+    },
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
+});
